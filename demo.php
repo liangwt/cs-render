@@ -1,8 +1,4 @@
-## New PHP Template Render Based On DOM Parse
-
-### Usages
-
-```php
+<?php
 include "./CsRender.php";
 $params = [
     "title"      => "New PHP Render Based On DOM Parse",
@@ -25,10 +21,3 @@ $params = [
 
 $cs = new CsRender();
 echo $cs->render("./tpl.html", $params);
-```
-
-### Read More
-
-- My article: [dom render implement](https://github.com/liangwt/cs-render/blob/master/article/dom_and_rander.md)
-- My blog: [showthink](https://blog.showthink.cn)
-- Follow me: [@不会凉的凉凉](https://www.weibo.com/u/3010707603)

@@ -1,0 +1,19 @@
+<html>
+<body>
+    <div>
+        <div class="title">
+            <div p-if="is_author">
+                <p>{{ author }}</p>
+            </div>
+            <div p-else>
+                <p>{{ vistor }}</p>
+            </div>
+        </div>
+
+        <div p-for="(value, idx) in items">
+            <p>{{ value }} - {{ idx }}</p>
+            <p>{{ value }}</p>
+        </div>
+    </div>
+</body>
+</html>
